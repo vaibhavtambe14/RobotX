@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Robot-X</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel='stylesheet' href='https://assets.codepen.io/7773162/swiper-bundle.min.css'>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css'>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+<header class="header" id="header">
+  <nav class="nav container">
+    <a href="#" class="nav__logo"> Robot-X </a>
+    <div class="nav__menu" id="nav-menu">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#home" class="nav__link active-link">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="#about" class="nav__link">About us</a>
+        </li>
+        <li class="nav__item">
+          <a href="#category" class="nav__link">Categories</a>
+        </li>
+        <li class="nav__item">
+          <a href="#trick" class="nav__link">Companies</a>
+        </li>
+        <li class="nav__item">
+          <a href="#contact" class="nav__link">Contact</a>
+        </li>
+        <a href="login.html" class="button button--ghost">Login</a>
+      </ul>
+      <div class="nav__close" id="nav-close">
+        <i class='bx bx-x'></i>
+      </div>
+      <img src="https://assets.codepen.io/7773162/nav-img.png" alt="" class="nav__img">
+    </div>
+    <div class="nav__toggle" id="nav-toggle">
+      <i class='bx bx-grid-alt'></i>
+    </div>
+  </nav>
+</header>
+<main class="main">
+  <!-- HOME -->
+  <section class="home container" id="home">
+    <div class="swiper home-swiper">
+      <div class="swiper-wrapper">
+        <!-- HOME SLIDER 1 -->
+        <section class="swiper-slide">
+          <div class="home__content grid">
+            <div class="home__group">
+              <img src="industrial robo.avif" alt="" class="home__img">
+              <div class="home__indicator"></div>
+              <div class="home__details-img">
+                <h4 class="home__details-title">Industrial Robot</h4>
+                <span class="home__details-subtitle">For Manufacturing or Industrial Purpose</span>
+              </div>
+            </div>
+            <div class="home__data">
+              <h3 class="home__subtitle">#3 Top Industrial Robots</h3>
+              <h1 class="home__title">FOR USE IN<br> INDUSTRIAL AUTOMATION <br> APPLICATION</h1>
+              <p class="home__description">An industrial robot is one that has been developed to automate intensive production tasks such as those required by a constantly moving assembly line.</p>
+              <div class="home__buttons">
+                    <svg width="200" height="60" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Define Gradient -->
+                        <defs>
+                          <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#FF6F61;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#FF3F5C;stop-opacity:1" />
+                          </linearGradient>
+                        </defs>
+                      
+                        <!-- Button Background -->
+                        <rect x="0" y="0" width="200" height="60" rx="30" ry="30" fill="url(#grad1)" />
+                      
+                        <!-- Button Text -->
+                        <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="24" fill="#FFFFFF" dominant-baseline="middle" text-anchor="middle">
+                          Explore
+                        </text>
+                      </svg> 
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- HOME SLIDER 2 -->
+        <section class="swiper-slide">
+          <div class="home__content grid">
+            <div class="home__group">
+              <img src="humanoid robo.jpg" alt="" class="home__img">
+              <div class="home__indicator"></div>
+              <div class="home__details-img">
+                <h4 class="home__details-title">Humanoid Robot</h4>
+                <span class="home__details-subtitle">For Interaction with Human purpose</span>
+              </div>
+            </div>
+            <div class="home__data">
+              <h3 class="home__subtitle">#2 top Humanoid Robot</h3>
+              <h1 class="home__title">DESIGNED TO <br>ACT & LOOK<br> LIKE  HUMAN </h1>
+              <p class="home__description">Humanoid robots are complex anthropomorphic artificial machines. 
+                The growing interest in humanoid robots accompanied by the latest and ever-increasing technological advancements in the field of robotics, locomotion, and AI, achieved by engineers, has speeded up their development over the past decade </p>
+              <div class="home__buttons">
+                <svg width="200" height="60" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Define Gradient -->
+                    <defs>
+                      <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#FF6F61;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#FF3F5C;stop-opacity:1" />
+                      </linearGradient>
+                    </defs>
+                  
+                    <!-- Button Background -->
+                    <rect x="0" y="0" width="200" height="60" rx="30" ry="30" fill="url(#grad1)" />
+                  
+                    <!-- Button Text -->
+                    <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="24" fill="#FFFFFF" dominant-baseline="middle" text-anchor="middle">
+                      Explore
+                    </text>
+                  </svg>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- HOME SLIDER 3 -->
+        <section class="swiper-slide">
+          <div class="home__content grid">
+            <div class="home__group">
+              <img src="service robo.avif" alt="" class="home__img">
+              <div class="home__indicator"></div>
+              <div class="home__details-img">
+                <h4 class="home__details-title">Service Robot</h4>
+                <span class="home__details-subtitle">For assisting purpose</span>
+              </div>
+            </div>
+            <div class="home__data">
+              <h3 class="pumpkin__subtitle">#1 Top Service Robot</h3>
+              <h1 class="home__title">ROBOT THAT<br>PERFORMS WORK<br> FOR HUMAN</h1>
+              <p class="home__description">Service robots are most commonly used to assist human employees in their daily tasks so they can focus on the most valuable customer- and patient-centric work</p>
+              <div class="home__buttons">
+                <svg width="200" height="60" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Define Gradient -->
+                    <defs>
+                      <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#FF6F61;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#FF3F5C;stop-opacity:1" />
+                      </linearGradient>
+                    </defs>
+                  
+                    <!-- Button Background -->
+                    <rect x="0" y="0" width="200" height="60" rx="30" ry="30" fill="url(#grad1)" />
+                  
+                    <!-- Button Text -->
+                    <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="24" fill="#FFFFFF" dominant-baseline="middle" text-anchor="middle">
+                      Explore
+                    </text>
+                  </svg>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="about__container container grid">
+      <div class="about__data">
+        <h2 class="section__title about__title">About Us </h2>
+        <p class="about__description">We are providing a information about a types of Robots in different fields.A robot is an autonomous machine capable of sensing its environment, carrying out computations to make decisions, and performing actions in the real world.
+            It's not easy to define what robots are, and it's not easy to categorize them either. Each robot has its own unique features, and as a whole, robots vary hugely in size, shape, and capabilities. 
+            Still, many robots share some common attributes, making it possible to group them together. </p>
+            <h2>Our Vision:</h2>
+            <p>"To be the leading resource for exploring the diverse world of robotics, inspiring curiosity, and fostering a deeper understanding of the transformative potential of robots in our lives."</p>
+
+    <h2>Our Mission:</h2>
+    <p>"Our mission is to provide comprehensive, accessible, and engaging information about the various types of robots, their functions, and their impact across different industries. 
+        We aim to educate and inspire enthusiasts, students, and professionals by offering detailed insights, interactive content, and the latest advancements in robotics."</p>
+        
+      </div>
+      <img src="about us.webp" alt="" class="about__img">
+    </div>
+  </section>
+  <!-- CATEGORY -->
+  <section class="section category" id="category">
+    <h2 class="section__title">ROBOTS<br> Category </h2>
+    <div class="category__container container grid">
+      <div class="category__data">
+        <img src="industrial robo.avif" alt="" class="category__img">
+        <h3 class="category__title">Industrial Robots</h3>
+        <p class="category__description">"reprogrammable multipurpose manipulator".</p>
+        <a href="Industrial_Robotics.pdf">View</a>
+      </div>
+      <div class="category__data">
+        <img src="humanoid robo.jpg" alt="" class="category__img">
+        <h3 class="category__title">Humanoid Robots</h3>
+        <p class="category__description">"a robot resembling the human body in shape".</p>
+        <a href="humanoid Robotics.pdf">View</a>
+      </div>
+      <div class="category__data">
+        <img src="service robo.avif" alt="" class="category__img">
+        <h3 class="category__title">Service Robots</h3>
+        <p class="category__description">"performs useful tasks for humans or equipment".</p>
+        <a href="service robotics.pdf">View</a>
+      </div>
+    </div>
+  </section>
+  <!-- TRICK OR TREAT -->
+  <section class="section trick" id="trick">
+    <h2 class="section__title">Companies Of Robots</h2>
+    <div class="trick__container container grid">
+      <div class="trick__content">
+        <img src="ABB.png" alt="" class="trick__img">
+        <h3 class="trick__title">ABB</h3>
+        <span class="trick__subtitle"></span>
+        <span class="trick__price"></span>
+        <button class="button trick__button">
+          <i class='bx bx--alt trick__icon'></i>
+        </button>
+      </div>
+      <div class="trick__content">
+        <img src="panasonic.jpg" alt="" class="trick__img">
+        <h3 class="trick__title">PANASONIC</h3>
+        <span class="trick__subtitle"></span>
+        <span class="trick__price"></span>
+        <button class="button trick__button">
+          <i class='bx bx--alt trick__icon'></i>
+        </button>
+      </div>
+      <div class="trick__content">
+        <img src="yaskawa.jpg" alt="" class="trick__img">
+        <h3 class="trick__title">YASKAWA</h3>
+        <span class="trick__subtitle"></span>
+        <span class="trick__price"></span>
+        <button class="button trick__button">
+          <i class='bx bx--alt trick__icon'></i>
+        </button>
+      </div>
+      <div class="trick__content">
+        <img src="FANUC.png" alt="" class="trick__img">
+        <h3 class="trick__title">FANUC</h3>
+        <span class="trick__subtitle"></span>
+        <span class="trick__price"></span>
+        <button class="button trick__button">
+          <i class='bx bx--alt trick__icon'></i>
+        </button>
+      </div>
+      <div class="trick__content">
+        <img src="KUKA.png" alt="" class="trick__img">
+        <h3 class="trick__title">KUKA</h3>
+        <span class="trick__subtitle"></span>
+        <span class="trick__price"></span>
+        <button class="button trick__button">
+          <i class='bx bx--alt trick__icon'></i>
+        </button>
+      </div>
+      <div class="trick__content">
+        <img src="boston.png" alt="" class="trick__img">
+        <h3 class="trick__title">BOSTON</h3>
+        <span class="trick__subtitle"></span>
+        <span class="trick__price"></span>
+        <button class="button trick__button">
+          <a href="industrial robo.avif"></a>
+          <i class='bx bx--alt trick__icon'></i>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- OUR NEWSLETTER -->
+  <section class="section newsletter" id="contact">
+    <div class="newsletter__container container">
+      <h2 class="section__title">Contact Us</h2>
+      <p class="newsletter__description">
+        <h2>GET IN TOUCH WITH US</h2><br>
+        <p><h3>We are here!!!!!!</h3><br>
+            <h3>Our door is always open for a good cup of tea.</h3><br><br>
+    
+            Email: shraddhathorat2619@gmail.com<br><br>
+    
+            Phone: 024 1234 5678<br><br>
+    
+            Address: Sangamner</p>
+            <br><br>
+      <form action="" class="newsletter__form">
+        <input type="text" placeholder="Enter your email" class="newsletter__input"> 
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content text-center">
+        <h4>
+            Copyright © 2023 All rights reserved.
+        </h4>
+       
+    </div>
+</footer>
+</main>
+
+<!-- SCROLL UP -->
+<a href="#" class="scrollup" id="scroll-up">
+  <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+</a>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.2/swiper-bundle.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js'></script>
+    <script src="script.js"></script>
+
+  </body>
+</html>
